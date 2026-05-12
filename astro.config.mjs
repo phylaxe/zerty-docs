@@ -6,16 +6,9 @@ export default defineConfig({
     starlight({
       title: 'Zerty Docs',
       description: 'Die offizielle Dokumentation für Zerty',
-      defaultLocale: 'de',
-      locales: {
-        root: {
-          label: 'Deutsch',
-          lang: 'de',
-        },
+      social: {
+        github: 'https://github.com/phylaxe/zerty-docs',
       },
-      social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/phylaxe/zerty-docs' },
-      ],
       sidebar: [
         {
           label: 'Erste Schritte',
